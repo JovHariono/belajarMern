@@ -153,6 +153,10 @@ const App = () => {
     setDaftarProduct(dataTemp);
   };
 
+  const generateID = () => {
+    return ((Math.random() * 1000) + 1)
+  }
+
   const onProductRemove = (obj) => {
     const conf = window.confirm(`Yakin ingin menghapus data ${obj.name}?`);
 
@@ -194,6 +198,7 @@ const App = () => {
                   <Form.Select
                     name={"gender"}
                     onChange={handleChangeProduk}
+                    value={produk.gender}
                   >
                     <option>Choose Gender</option>
                     <option value={"male"}>Male</option>
