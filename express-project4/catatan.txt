@@ -1,0 +1,12 @@
+Module Baru
+1. Pembuatan modules
+2. buat modules
+3. buat controller
+4. buat middleware
+5. buat router
+6. register di index.js
+
+Module yang sudah ada dan mau tambah fitur
+3. buat controller
+4. buat middleware
+5. buat router
